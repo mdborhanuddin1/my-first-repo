@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+.header{
+    background-image: url(tree.jpg);
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: yellowgreen;
+    color: white;
+}
+ul{
+    float: right;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 15px;
+    /* float: right; */
+    font-size: 20px;
+}
+.logo{
+    padding: 15px;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    margin: auto;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
